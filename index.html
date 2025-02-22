@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <div class="flex justify-center items-center h-screen bg-gray-100">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-[30%] mx-auto">
+      <h1 class="text-2xl text-center font-bold text-gray-800">Selecione eu tipo de conta utilizando input radio</h1>
+
+      <div class="relative space-y-4">
+        
+        <div>
+          <input type="radio" id="radio" name="type" class="hidden peer" />
+          <label for="radio" class="flex items-center cursor-pointer p-4 border border-gray-300 rounded-lg bg-white peer-checked:bg-blue-500 peer-checked:text-white peer-checked:border-blue-500">
+            Pessoa
+          </label>
+        </div>
+    
+        <div>
+          <input type="radio" id="radio2" name="type" class="hidden peer" />
+          <label for="radio2" class="flex items-center cursor-pointer p-4 border border-gray-300 rounded-lg bg-white peer-checked:bg-blue-500 peer-checked:text-white peer-checked:border-blue-500">
+            Empresa
+          </label>
+        </div>
+      </div>
+      
+
+    </div>
+</body>
+
+</html>
